@@ -1,0 +1,17 @@
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\bin\Release\ETS2TimeCalculator.exe.config
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\bin\Release\ETS2TimeCalculator.exe
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\bin\Release\ETS2TimeCalculator.pdb
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\bin\Release\Guna.UI2.dll
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.csproj.AssemblyReference.cache
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.Form1.resources
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.Properties.Resources.resources
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.csproj.GenerateResource.cache
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2Time.B721E4D4.Up2Date
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.exe
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.pdb
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\bin\Release\ETS2TimeCalculator.exe.manifest
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\bin\Release\ETS2TimeCalculator.application
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.exe.config
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.exe.manifest
+C:\Users\vladp\Desktop\Работа 2\ETS2TimeCalculator\ETS2TimeCalculator\ETS2TimeCalculator\obj\Release\ETS2TimeCalculator.application

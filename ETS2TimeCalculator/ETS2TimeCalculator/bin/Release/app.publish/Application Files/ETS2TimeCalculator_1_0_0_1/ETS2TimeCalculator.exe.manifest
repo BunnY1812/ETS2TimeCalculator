@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ETS2TimeCalculator.exe" version="1.0.0.1" publicKeyToken="1c5034f915e71d60" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icons8-евро-трек-симулятор-2-48.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ETS2TimeCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ETS2TimeCalculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ETS2TimeCalculator.exe" size="39840">
+      <assemblyIdentity name="ETS2TimeCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xtvjcuoODUyf50yaiDgFONB+nHRxTIxp6m4aNjsYQn0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2190720">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.7" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ITDHSJ9aXiGBLB6rN9xJA7kBhhotVFqmB1Vb4mkJGv0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ETS2TimeCalculator.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons8-евро-трек-симулятор-2-48.ico" size="9662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g9nE+oJzdPli0iwVnLFE99auhDyVH9igwYx0VJ4WeHM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VLAD\vladp" issuerKeyHash="2d6334a6e8a8aa8866d56fe59e175a8cd22d7c34" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3r/ecrpHALviyjJ5eDdUlUvu+gVoPOd+RtnTgvULJ0k=</DigestValue></Reference></SignedInfo><SignatureValue>hFPx53hiRiBTrk9ssjtaFmvi88hM8I0O7FaU58O2aNor4MaHzCbrdCuafD6MOjxt3mKcOrnPFQRFBGFmXBU+FvHwDgeJpnom9I5SkZErH/6WFQx6/UrFqNsbtGKJv1mmrbBbCE/ZtIqrGQksIewgM7Rpe3hGEJuCHczRX8eLDcg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r0YBVriPMS6LAABQG03vO1t7f3vLUgcDAmvPaXGmsLU33hUK18tc0uLb8IpOeNsRwPQy+iVunZ52ybYHH8md359791MS29ezEKD2mhsW7kV5KJCDqca0abcn2sfWZk6I82VQdI19vaGnM+x6DtskAOxac3KZA2EzxRZiPB4Kn00=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="49270bf582d3d9467ee73c6805faee4b955437787932cae2bb0047ba72debfde" Description="" Url=""><as:assemblyIdentity name="ETS2TimeCalculator.exe" version="1.0.0.1" publicKeyToken="1c5034f915e71d60" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VLAD\vladp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bKf8GXPNfJoPk4SiLmG+lHeQ2QpejDN1BEEuFIgdb14=</DigestValue></Reference></SignedInfo><SignatureValue>fGnzl/+a35JwluTlW1EpXMTfF29XEvst+hyPAYZ4OtRnI7xA9A0bhZmj+l2S5mRqqBXoO8dfQXULSKl2n0z3w/0l07pjZ0gluolJXmI9a7uB8rvMPqN2QxxLgz+IcV3DL+Is8uCNuL0I88fx7We46OGIZnei7ja254uIhKSDRsM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r0YBVriPMS6LAABQG03vO1t7f3vLUgcDAmvPaXGmsLU33hUK18tc0uLb8IpOeNsRwPQy+iVunZ52ybYHH8md359791MS29ezEKD2mhsW7kV5KJCDqca0abcn2sfWZk6I82VQdI19vaGnM+x6DtskAOxac3KZA2EzxRZiPB4Kn00=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQOOHNPU/W3JlNO6WZrA5kxDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAVgBMAEEARABcAHYAbABhAGQAcDAeFw0yNjAzMzAyMDExNDJaFw0yNzAzMzEwMjExNDJaMB8xHTAbBgNVBAMeFABWAEwAQQBEAFwAdgBsAGEAZABwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvRgFWuI8xLosAAFAbTe87W3t/e8tSBwMCa89pcaawtTfeFQrXy1zS4tvwik542xHA9DL6JW6dnnbJtgcfyZ3fn3v3UxLb17MQoPaaGxbuRXkokIOpxrRptyfax9ZmTojzZVB0jX29oacz7HoO2yQA7FpzcpkDYTPFFmI8HgqfTQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAG6xK39SMFkRkkFn0fCxmstUGzcJIZcgxlwlo0+pRfuFyK5rPDSYFcBJ144gOW7Iq66TcB9C/byhrBx5Ug4K/kUYMIiGAPG7FQeEeOQ9qJACsfrKcvklmbuFmtTy3QkaGXNIC4wuvpzDjj2n5AZ0D+pbG8mH4HHSq8HRMsYc/+oB</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
